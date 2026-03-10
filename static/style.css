@@ -1,0 +1,79 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:#020617;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#22c55e;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:150px 20px;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+button{
+padding:15px 35px;
+border:none;
+background:#22c55e;
+color:white;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.contacto{
+padding:80px;
+text-align:center;
+}
+
+form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input, textarea{
+padding:12px;
+border:none;
+border-radius:8px;
+}
+
+textarea{
+height:100px;
+}
